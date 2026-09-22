@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; font-family: 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', sans-serif; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; } html { scroll-behavior: smooth; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-tertiary-fixed-variant": "#3a4763", "on-surface-variant": "#44474d", "on-primary-fixed-variant": "#374766", "primary-fixed-dim": "#b6c7ec", "surface-container-lowest": "#ffffff", "tertiary-fixed": "#d8e2ff", "error-container": "#ffdad6", "tertiary-container": "#0f1d37", "on-error": "#ffffff", "on-secondary-fixed-variant": "#574500", "surface": "#f8f9fd", "on-primary-container": "#7585a8", "surface-container-low": "#f2f3f7", "secondary-fixed": "#ffe088", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "primary-container": "#0b1d3a", "primary": "#00030f", "background": "#f8f9fd", "surface-container": "#edeef2", "on-error-container": "#93000a", "surface-variant": "#e1e2e6", "on-primary-fixed": "#091b38", "secondary": "#735c00", "on-tertiary-container": "#7885a5", "surface-container-high": "#e7e8ec", "on-tertiary-fixed": "#0d1b35", "inverse-on-surface": "#eff1f5", "on-background": "#191c1f", "on-secondary-container": "#745c00", "outline": "#75777e", "secondary-container": "#fed65b", "on-secondary": "#ffffff", "tertiary": "#000310", "surface-container-highest": "#e1e2e6", "inverse-primary": "#b6c7ec", "tertiary-fixed-dim": "#b9c6e8", "primary-fixed": "#d7e2ff", "error": "#ba1a1a", "secondary-fixed-dim": "#e9c349", "on-secondary-fixed": "#241a00", "surface-dim": "#d9dade", "outline-variant": "#c5c6ce", "surface-tint": "#4f5e7f", "inverse-surface": "#2e3134", "on-surface": "#191c1f", "surface-bright": "#f8f9fd" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "margin": "3rem", "space-xs": "0.25rem", "space-lg": "1.75rem", "gutter": "1.5rem", "space-md": "1rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "space-xl": "2.5rem", "space-2xl": "4rem", "space-sm": "0.5rem" }, fontFamily: { "body-md": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "label-sm": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "body-sm": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "headline-lg-mobile": ["IBM Plex Sans Arabic", "Newsreader"], "display-hero-mobile": ["IBM Plex Sans Arabic", "Newsreader"], "headline-sm": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "headline-md": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "label-md": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "headline-lg": ["IBM Plex Sans Arabic", "Newsreader"], "body-lg": ["IBM Plex Sans Arabic", "Plus Jakarta Sans"], "display-hero": ["IBM Plex Sans Arabic", "Newsreader"] }, fontSize: { "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "500" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_12px_rgba(11,29,58,0.06)] transition-all"><div class="h-20 max-w-[1320px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Logo2.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VUIYEloknjMs9qip06Glg1EeqJm_7j6_bPfxxCoEAPO7rG8UcstNA5nVQWElVJZJf3nLMtt8FcWE1HDu2XwTSmA292XscVeCXX847MDrcgpz4olFWXm36jcJTRTiQ_qTdtrkVQ6K3FKw4s4gP2_RQJeQY_8G2Zu2WpbLcPU5zwCOJ_fWxsAMKdCJW5-3kvthizqhKJU9Ob_-nOHP7Lb9KWvLNCKmd2xNt8V-4dvi66F15ZZGHTFEYGbEdEOEdprF7NektXmsYryv8"/><div class="flex flex-col text-right"><span class="font-headline-sm text-headline-sm text-primary-container leading-tight tracking-tight">EIC</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium hidden sm:inline-block">تخليص معاملات الحيوانات الحية الدولية</span></div></div><nav class="hidden xl:flex items-center gap-space-md text-right" data-active-classes="text-primary-container font-semibold bg-surface-container-low rounded-full px-space-sm py-space-xs"><a aria-current="page" class="transition-colors text-primary-container font-semibold bg-surface-container-low rounded-full px-space-sm py-space-xs" data-path="home" href="#hero">الرئيسية</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#services">خدماتنا</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="animals" href="#animals">الحيوانات التي نخدمها</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="why-us" href="#why-us">لماذا EIC؟</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-it-works" href="#how-it-works">كيف تعمل الخدمة؟</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#faq">الأسئلة الشائعة</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#contact">تواصل معنا</a></nav><div class="flex items-center gap-space-sm"><a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-all text-label-md font-label-md shadow-[0_1px_4px_rgba(0,0,0,0.04)]" href="https://wa.me/971000000000" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px] text-[#0d7a53]">chat</span><span class="hidden md:inline">واتساب سريع</span></a><a class="inline-flex items-center justify-center px-space-lg py-space-xs rounded-full bg-primary-container text-on-primary hover:bg-tertiary-container transition-all text-label-md font-label-md shadow-[0_4px_16px_rgba(11,29,58,0.12)]" href="#contact">اطلب خدمتك</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full text-right" dir="rtl">
+<!-- SEO & Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://eic-logistics.ae/#organization",
+        "name": "EIC Animal Customs Brokerage UAE",
+        "alternateName": "EIC لتخليص معاملات الحيوانات في الإمارات",
+        "url": "https://eic-logistics.ae",
+        "logo": "https://eic-logistics.ae/logo.png",
+        "description": "تخليص معاملات تصدير وإعادة تصدير وترانزيت الحيوانات في دولة الإمارات العربية المتحدة.",
+        "areaServed": "United Arab Emirates",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+97140000000",
+          "contactType": "Customer Support",
+          "areaServed": "AE",
+          "availableLanguage": ["Arabic", "English"]
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://eic-logistics.ae/#service",
+        "name": "تخليص معاملات وتصدير وترانزيت الحيوانات الحية",
+        "provider": {"@id": "https://eic-logistics.ae/#organization"},
+        "serviceType": "تخليص جمركي وبيطري للحيوانات",
+        "description": "إصدار الشهادات الصحية البيطرية، ترانزيت الصقور عبر نظام نما، وخدمات المسار السريع بالتنسيق مع الجهات المختصة في الإمارات.",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://eic-logistics.ae/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "ما هي المستندات المطلوبة لتصدير الحيوانات من الإمارات؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "تختلف المستندات المطلوبة بحسب نوع الحيوان، وجهة التصدير، ونوع المعاملة؛ يسعدنا مراجعة تفاصيل حالتك وتزويدك بقائمة المتطلبات بدقة."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "هل توفرون شهادة صحية بيطرية للتصدير أو إعادة التصدير؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "نعم، ننجز كافة إجراءات ومعاملات الشهادات الصحية البيطرية اللازمة للتصدير وإعادة التصدير بالتنسيق مع الجهات المختصة."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "هل تقدمون خدمات ترانزيت الصقور؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "نعم، نقدم الدعم المتكامل لإنجاز معاملات ترانزيت الصقور عبر نظام نما وتجهيز المستندات المطلوبة."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<!-- 1. HERO SECTION -->
+<section class="relative overflow-hidden py-space-xl lg:py-space-2xl bg-gradient-to-b from-surface via-surface-container-low/60 to-surface" id="hero">
+<!-- Ambient blurred background elements -->
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-secondary-fixed/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-20 w-80 h-80 rounded-full bg-tertiary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-gutter relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Right Column: Text & Value Proposition -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-md">
+<!-- Badge / Trust Tag -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest shadow-sm text-primary-container">
+<span class="material-symbols-outlined text-[20px] text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-md text-label-md font-semibold text-on-surface">خبرة أكثر من 3 سنوات في إنجاز المعاملات والخدمات المرتبطة بالحيوانات</span>
+</div>
+<!-- Main H1 Headline -->
+<h1 class="font-display-hero text-display-hero-mobile lg:text-display-hero text-primary-container font-semibold tracking-tight leading-tight">
+            تخليص معاملات تصدير وإعادة تصدير الحيوانات في الإمارات
+          </h1>
+<!-- Supporting Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed max-w-2xl">
+            نساعدك في إنجاز مستندات ومعاملات الحيوانات بسرعة واحترافية، ونتخصص بشكل خاص في الصقور والجمال، إضافة إلى الكلاب والقطط والغزلان ومختلف الحيوانات.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container shadow-md transition-all" href="#contact">
+<span>اطلب خدمتك الآن</span>
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-[#0d7a53] text-on-primary font-label-md text-label-md hover:bg-[#0b6545] shadow-md transition-all" href="https://wa.me/971000000000" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>تواصل معنا عبر واتساب</span>
+</a>
+</div>
+<!-- Statistics Counters (Visual Proof) -->
+<div class="grid grid-cols-2 gap-space-md w-full pt-space-md max-w-md">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-center">
+<div class="flex items-center gap-space-xs text-primary-container mb-1">
+<span class="material-symbols-outlined text-secondary text-[22px]">history</span>
+<span class="font-headline-lg text-headline-lg font-bold tracking-tight">+3</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">سنوات من الخبرة المتخصصة</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-center">
+<div class="flex items-center gap-space-xs text-primary-container mb-1">
+<span class="material-symbols-outlined text-secondary text-[22px]">inventory_2</span>
+<span class="font-headline-lg text-headline-lg font-bold tracking-tight">+30,000</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">معاملة منجزة بنجاح تام</span>
+</div>
+</div>
+</div>
+<!-- Left Column: Visual Showcase -->
+<div class="lg:col-span-5 relative">
+<!-- Main Hero Image Frame -->
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface-container-high">
+<img alt="صقر مهيب على يد صقار في صحراء الإمارات" class="w-full h-[460px] object-cover object-center transform hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8LFg8rYVQ9htrOyT4lX2MaG_t_ygGfXj_jV5FU7UgnAZXUODyK7gToJkL3Bbakzu-b75zbJaSk2Svbiglh4BPDY9JZSrqIJ-bq7ZThFSy-zW8Fjrufd6-cPTsrW5gWtWgDFM6uxzZwjegy3nmsVXSzBTZhKhhFg-2Zb15c7hR-jSqS7G6zRq-aQ2pbZTYEsT9i3jynN52C9cB4s0K3L_CI5_iOPGX6_OhjOvj49dIAj4Uby78x7CSfw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 right-4 left-4 p-space-md rounded-xl bg-surface-container-lowest/90 backdrop-blur-md shadow-md text-right">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider">سجل التخليص الحيواني</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-[#0d7a53] bg-surface-container px-2 py-0.5 rounded-full">
+<span class="w-2 h-2 rounded-full bg-[#0d7a53] animate-pulse"></span>
+                  نشط ومعتمد
+                </span>
+</div>
+<p class="font-headline-sm text-headline-sm text-primary-container font-semibold">التصاريح البيطرية وتأشيرات الترانزيت</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">جاهزية كاملة لنقل وتخليص سلالات الصقور والهجن بدولة الإمارات</p>
+</div>
+</div>
+<!-- Floating Badge -->
+<div class="hidden sm:flex absolute -top-5 -left-5 p-space-md rounded-xl bg-surface-container-lowest shadow-xl items-center gap-space-sm z-20">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="text-right">
+<div class="font-label-md text-label-md font-bold text-primary-container">إجراءات متوافقة 100%</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">اللوائح والأنظمة الرسمية</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. PARTNERS & APPROVED SYSTEMS -->
+<section class="py-space-xl bg-surface-container-lowest shadow-sm">
+<div class="max-w-[1320px] mx-auto px-gutter text-center">
+<div class="inline-block mb-space-sm">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">شراكات تنظيمية موثوقة</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary-container font-semibold mb-space-lg">
+        الجهات والأنظمة المعتمدة التي نتعامل معها
+      </h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg items-center max-w-4xl mx-auto">
+<!-- Logo 1: Ministry -->
+<div class="p-space-lg rounded-xl bg-surface flex flex-col items-center justify-center shadow-sm hover:shadow-md transition-shadow h-44">
+<img alt="وزارة التغير المناخي والبيئة" class="max-h-20 w-auto object-contain mb-space-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzy9YEb-Fbv7G_T8oGc4dkNUqQ97l8fSQQ7YG6-zIzpOWHcSZoK4LIw2NZ2ii0kBI8eJqrqs5YMuLvtxFHmY_CnjuYDfP32WFr2Di7tRDHmRPwriHkVL3q6oM0L3qdiiNC6fvWxxgH4y3iXKtfzeOUyUMVZJSq4DCpCcWNftQfWsYKW2N7ZrImBK41CcfFW5ZBf7LbrJAvXp8xlHNHqCepXYcLAZYgf0kdnVOwNZ5xkboZoruRXkepUDNpPEJV9iGaMXk"/>
+<span class="font-label-md text-label-md font-semibold text-on-surface">وزارة التغير المناخي والبيئة</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">UAE MOCCAE</span>
+</div>
+<!-- Logo 2: NAMA System -->
+<div class="p-space-lg rounded-xl bg-surface flex flex-col items-center justify-center shadow-sm hover:shadow-md transition-shadow h-44">
+<img alt="نظام نما للصقور" class="max-h-20 w-auto object-contain mb-space-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZt6hUgZ9x8rvlSh1QO2vXGtu-J60aNLEtBCN5AtW8kzTehHghYKAn5Ew2kFKVAWbfeRBa5S0TarGohvQhCvZP3WCJRc5BP79JmQ9L0NY8ZBtLsb_bmxARFm-WrWYj7szTKMEoaiVws8BnfJdsyvLJPRj8_Duo39KWROwOv6qhL5bqUKCa6eLWpWtM7jYt7w0NuiPK3AbfmJgiH90yjoPPCeh9AHgrNZSYSAMMzUZ3nsPh1sRvR_YuUXapuGBrYTxSQmM"/>
+<span class="font-label-md text-label-md font-semibold text-on-surface">نظام نما (NAMA)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">منظومة تراخيص وترانزيت الصقور</span>
+</div>
+<!-- Logo 3: AgriServ -->
+<div class="p-space-lg rounded-xl bg-surface flex flex-col items-center justify-center shadow-sm hover:shadow-md transition-shadow h-44">
+<img alt="الشركة الوطنية للخدمات الزراعية" class="max-h-20 w-auto object-contain mb-space-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxuVfx1Lba1IjncSjGS8RXfO35l07P7iwNYe09DC2yVwt1gUMbzp0lNcDtfmfGm3lcCyPi7eZcloMGUxEL8Q3pqYPVMBMVibRC_2wZEevW-dhW7GjzRUF4yCZLxcCkqQMh8VE2beIOV1tyAgb7gtbfNV_yYv3rQrpioofLTUaTAlBAtF-6Wj1vTTN0VqXG5mxVOrjy3Fw4KH2nR169hbT4uSe2HKcbRUJzWy52m-bxqWYzal02pGTH-04sBGl-9PKzYKA"/>
+<span class="font-label-md text-label-md font-semibold text-on-surface">الشركة الوطنية للخدمات الزراعية</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">AgriServ - المسار السريع</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SERVICES SECTION -->
+<section class="py-space-2xl bg-surface" id="services">
+<div class="max-w-[1320px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="text-right max-w-3xl mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">خدمات تخليص متخصصة</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          خدماتنا
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          حلول متكاملة ومعتمدة لإنجاز معاملات الحيوانات وفق المعايير الرسمية في دولة الإمارات.
+        </p>
+</div>
+<!-- 3 Service Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- SERVICE 1 -->
+<div class="flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-fixed/50 flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[28px]">medical_services</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+              شهادة صحية بيطرية للتصدير أو إعادة التصدير
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              إنجاز معاملات الشهادة الصحية البيطرية اللازمة لتصدير أو إعادة تصدير الحيوانات من دولة الإمارات، بالتنسيق مع الجهات المختصة.
+            </p>
+<div class="p-space-sm rounded-lg bg-surface-container-low mb-space-md">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold block mb-1">الأنواع المشمولة:</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">الصقور، الجمال، الكلاب، القطط، الغزلان، وغيرها من الحيوانات.</p>
+</div>
+<div class="flex items-center gap-space-sm mb-space-lg">
+<img alt="وزارة التغير المناخي والبيئة" class="h-8 max-w-[120px] object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlqkoRnJd81HAqU2qK5tzLmo6jQuvfbTHFvzLOmlz_sMs1bv9CspT_qJPDe1pgLMroxR9jbvR5MC_unxHDiRiLOf6Ht7kVLXm6Vlnak6AvVdrxVA0mgPMerRxoQv44orK9ypi_2KmXycMYDmaPPIdBhJuSk83TndaTjB0EFqkFYiEk2c9rjlVCvAB8fDBf5yxVWi9N3DkcOeD11ilBmH5RIKM9S9KBkgqmKFXb-srlNKXr2kSYHQmsOjgKRwPk_97Q064"/>
+<span class="font-label-sm text-label-sm text-on-surface-variant">معتمد لدى الوزارة</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<a class="w-full inline-flex items-center justify-center py-space-sm rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container transition-colors" href="#contact">
+              اطلب الخدمة
+            </a>
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm rounded-full bg-surface-container-low text-[#0d7a53] font-label-md text-label-md hover:bg-surface-container transition-colors" href="https://wa.me/971000000000?text=مرحباً،%20أرغب%20في%20طلب%20شهادة%20صحية%20بيطرية" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>استفسر عبر واتساب</span>
+</a>
+</div>
+</div>
+<!-- SERVICE 2 -->
+<div class="flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="w-14 h-14 rounded-xl bg-secondary-fixed/50 flex items-center justify-center text-on-secondary-fixed-variant mb-space-md">
+<span class="material-symbols-outlined text-[28px]">flight_takeoff</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+              ترانزيت صقور عبر نظام نما
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              المساعدة في إنجاز معاملات ترانزيت الصقور عبر نظام نما وتجهيز المستندات المطلوبة للمعاملة بدقة وسرعة قياسية لتفادي أي تأخير.
+            </p>
+<div class="p-space-sm rounded-lg bg-surface-container-low mb-space-md">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold block mb-1">المجال المتخصص:</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">ترانزيت الصقور، جوازات السفر البيولوجية، وفحوصات السلامة عبر المنافذ.</p>
+</div>
+<div class="flex items-center gap-space-sm mb-space-lg">
+<img alt="نظام نما" class="h-8 max-w-[80px] object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEjAj-u5iVrORtYI9zu2Uw4fRKAtqkr0YV_liPDyv9OTW6B0GlRsei9KtdmNdcHEibUxThReQg0TpS5fTNYyxpSIujGDnWr8tRwG0b19tOPlarIrfhUA9PmQtSHwIkmiye_mqt_dYf1Lr7F-fo4xQbP1uF2QwPeYIhSJOOL2NGVud0MAo3OWx3xvRh841mFanH59-L-6iEhJy7LjxCTLxXNzqVLKBnTQ924n7nrsIwnP4WKNk-X6iaNzOIsZmcx5C9fOk"/>
+<span class="font-label-sm text-label-sm text-on-surface-variant">نظام نما الرقمي الرسمي</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<a class="w-full inline-flex items-center justify-center py-space-sm rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container transition-colors" href="#contact">
+              اطلب الخدمة
+            </a>
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm rounded-full bg-surface-container-low text-[#0d7a53] font-label-md text-label-md hover:bg-surface-container transition-colors" href="https://wa.me/971000000000?text=مرحباً،%20أستفسر%20عن%20ترانزيت%20الصقور%20عبر%20نظام%20نما" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>استفسر عبر واتساب</span>
+</a>
+</div>
+</div>
+<!-- SERVICE 3 -->
+<div class="flex flex-col justify-between p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="w-14 h-14 rounded-xl bg-tertiary-fixed/50 flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+              المسار السريع
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md leading-relaxed">
+              خدمة المسار السريع لإنجاز معاملات الحيوانات من خلال الشركة الوطنية للخدمات الزراعية، حسب المتطلبات والإجراءات المعتمدة.
+            </p>
+<div class="p-space-sm rounded-lg bg-surface-container-low mb-space-md">
+<span class="font-label-sm text-label-sm text-primary-container font-semibold block mb-1">ميزة الخدمة:</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أولوية إنجاز الإجراءات، تقليص فترات الانتظار، واستخراج التصاريح بسرعة.</p>
+</div>
+<div class="flex items-center gap-space-sm mb-space-lg">
+<img alt="الشركة الوطنية للخدمات الزراعية" class="h-8 max-w-[110px] object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfNmb7L1TFAFDQoEZQo5zy6-4wJ3mvHiqLxpl78jEx_XV99A76ZCySyRMme4cWNriQNmT1VWCfFTpHlWHh9EcA4jASH53a2D1AGGvvFTpmUH_EoRaZmqVXCBQP88BWTzriJGQXfsYAjLEAEDxF3RVnj8IEX58ycJCjNDDRBbzvzU49rkl1wmKm3CLiP-Oy5qkdruPa3RfUlAFk1HU55hwcCuMP0GdKpnNHF5DNOBf5hytSFj2BIQSvSZBTukp30nGCe8E"/>
+<span class="font-label-sm text-label-sm text-on-surface-variant">الشركة الوطنية للخدمات الزراعية</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<a class="w-full inline-flex items-center justify-center py-space-sm rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container transition-colors" href="#contact">
+              اطلب الخدمة
+            </a>
+<a class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm rounded-full bg-surface-container-low text-[#0d7a53] font-label-md text-label-md hover:bg-surface-container transition-colors" href="https://wa.me/971000000000?text=مرحباً،%20أرغب%20في%20خدمة%20المسار%20السريع" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>استفسر عبر واتساب</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. ANIMALS WE SERVE -->
+<section class="py-space-2xl bg-surface-container-low" id="animals">
+<div class="max-w-[1320px] mx-auto px-gutter">
+<!-- Section Header -->
+<div class="text-right max-w-3xl mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">الشمولية والخبرة الميدانية</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          الحيوانات التي نخدمها
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          نساعد ملاك الحيوانات والجهات المختصة في إنجاز المعاملات والمستندات اللازمة للتصدير وإعادة التصدير والترانزيت.
+        </p>
+</div>
+<!-- Bento Grid Layout with Falcon in Spotlight -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- 1. Falcons (Hero Card / Spotlight) -->
+<div class="lg:col-span-2 relative rounded-xl overflow-hidden shadow-md bg-surface-container-lowest group">
+<div class="grid grid-cols-1 sm:grid-cols-12 h-full">
+<div class="sm:col-span-6 relative h-64 sm:h-auto overflow-hidden">
+<img alt="الصقور - تخصصنا الأبرز" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8LFg8rYVQ9htrOyT4lX2MaG_t_ygGfXj_jV5FU7UgnAZXUODyK7gToJkL3Bbakzu-b75zbJaSk2Svbiglh4BPDY9JZSrqIJ-bq7ZThFSy-zW8Fjrufd6-cPTsrW5gWtWgDFM6uxzZwjegy3nmsVXSzBTZhKhhFg-2Zb15c7hR-jSqS7G6zRq-aQ2pbZTYEsT9i3jynN52C9cB4s0K3L_CI5_iOPGX6_OhjOvj49dIAj4Uby78x7CSfw"/>
+<div class="absolute top-4 right-4 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold px-3 py-1 rounded-full shadow-sm">
+                تخصصنا الأبرز ★
+              </div>
+</div>
+<div class="sm:col-span-6 p-space-xl flex flex-col justify-center text-right">
+<h3 class="font-headline-md text-headline-md text-primary-container font-bold mb-space-xs">الصقور</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                خبرة عميقة بمعاملات الصقور تشمل جوازات الصقور الرسمية، تصاريح السفر والترانزيت، التنسيق مع نظام نما، والفحوصات البيطرية المعتمدة لضمان سهولة التنقل الدولي لموسم الصيد والمسابقات.
+              </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm">جوازات الصقور</span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm">ترانزيت نما</span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm">فحوصات طبية بيطرية</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 2. Camels (Heritage & Racing Feature) -->
+<div class="relative rounded-xl overflow-hidden shadow-md bg-surface-container-lowest group flex flex-col justify-between">
+<div class="relative h-48 overflow-hidden">
+<img alt="الجمال وهجن السباقات في الإمارات" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6gIi7A-LDSbwy6pMgQyvBg5yEfM3k_kWGiiZGxYdCVcd2fFZoUJPPlL4Te1yhWQ4p1WJXRuMbDwpHvD-uVbCmZKQ39kJRtx6OkQ6y_EHcWfvHIFzGil7IwsalbfRutoCxPwYk_arkkzonU2JxRIPoFXKuj4F12_IJkxpaGTUbJ-HtlXd3VHg90vRaJfUo2NHFA6CntV5kq9QfVgD_nZGpfHZ0wgdw1_JzTnay6fc7QJjaot7PRi5ZXQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/60 via-transparent to-transparent"></div>
+<span class="absolute bottom-3 right-4 font-headline-sm text-headline-sm text-on-primary font-bold">الجمال</span>
+</div>
+<div class="p-space-lg text-right flex-1 flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              هجن السباق والمزاينة، الشهادات الصحية، نقل السلالات وتراخيص العبور والمشاركات الإقليمية في المهرجانات.
+            </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm">هجن السباق</span>
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface-variant text-label-sm font-label-sm">شهادات بيطرية</span>
+</div>
+</div>
+</div>
+<!-- 3. Dogs -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">pets</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">الكلاب</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              شهادات التصدير، سجلات اللقاحات، وإجراءات السفر الدولية والشرائح الإلكترونية المعتمدة للشحن الجوي.
+            </p>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">مطابقة اشتراطات الدول المستقبلة</span>
+</div>
+</div>
+<!-- 4. Cats -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">cruelty_free</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">القطط</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              المستندات البيطرية الرسمية، شرائح الهوية والشهادات الصحية الصادرة من المنافذ والوزارة.
+            </p>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">تخليص سريع وسلس</span>
+</div>
+</div>
+<!-- 5. Gazelles -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">nature</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">الغزلان</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              إجراءات الترانزيت والنقل والتصاريح البيئية المتخصصة لمزارع المحميات وملاك الحيوانات البرية.
+            </p>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">تصاريح خاصة وإشراف رسمي</span>
+</div>
+</div>
+<!-- 6. Other Animals -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">category</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">حيوانات أخرى</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              الطيور النادرة ومختلف الفصائل حسب الإجراءات المعتمدة وشهادات التصدير والعبور النظامية.
+            </p>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">استشارة متخصصة لكل فصيلة</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. WHY EIC? -->
+<section class="py-space-2xl bg-surface" id="why-us">
+<div class="max-w-[1320px] mx-auto px-gutter">
+<div class="text-right max-w-3xl mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">الجدارة والموثوقية</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          لماذا EIC؟
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          نجمع بين المعرفة التنظيمية الدقيقة وسرعة الإنجاز لتقديم تجربة تخليص لا تشوبها شائبة.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- 1 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">military_tech</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">خبرة متخصصة</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            خبرة أكثر من 3 سنوات في معاملات وخدمات الحيوانات والتعامل المباشر مع الأنظمة الحكومية في الإمارات.
+          </p>
+</div>
+<!-- 2 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">task_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">أكثر من 30,000 معاملة</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            خبرة عملية واسعة ومثبتة في إنجاز المعاملات بكفاءة وسلاسة لكبرى الإسطبلات وملاك الحيوانات.
+          </p>
+</div>
+<!-- 3 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">hourglass_empty</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">توفير الوقت والجهد</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            نتولى متابعة الإجراءات والمستندات المطلوبة بدقة متناهية نيابةً عن العميل لتفادي أي رفض أو تأخير.
+          </p>
+</div>
+<!-- 4 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">star</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">متخصصون في معاملات الصقور</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            فهم دقيق لاحتياجات ملاك الصقور وإجراءات معاملاتهم عبر نظام نما والمعابر الحدودية والمطارات.
+          </p>
+</div>
+<!-- 5 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">خدمة سهلة عبر التواصل المباشر</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            اجعل طلب الخدمة والاستفسار بسيطًا وسريعًا ومتاحًا عبر واتساب والاتصال الفوري دون تعقيد.
+          </p>
+</div>
+<!-- 6 -->
+<div class="p-space-xl rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow text-right">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">flag</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">خدمة داخل الإمارات</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            خدمة موجهة ومخصصة للعملاء في دولة الإمارات بجميع إماراتها، مع تغطية لكافة المنافذ المعتمدة.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. HOW IT WORKS -->
+<section class="py-space-2xl bg-surface-container-lowest" id="how-it-works">
+<div class="max-w-[1320px] mx-auto px-gutter">
+<div class="text-center max-w-2xl mx-auto mb-space-2xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">بساطة الخطوات</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          كيف تعمل الخدمة؟
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          خطوات واضحة وسريعة تبدأ من تواصلك وحتى استلام المعاملة
+        </p>
+</div>
+<!-- 3-Step Timeline -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-xl relative">
+<!-- Step 1 -->
+<div class="flex flex-col items-center text-center p-space-lg rounded-xl bg-surface relative">
+<div class="w-16 h-16 rounded-full bg-primary-container text-on-primary font-headline-md text-headline-md flex items-center justify-center font-bold mb-space-md shadow-md">
+            1
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+            أرسل بيانات الحيوان والمستندات
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            العميل يرسل تفاصيل المعاملة والمستندات المتوفرة عبر محادثة واتساب السريعة أو نموذج الطلب الإلكتروني.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center text-center p-space-lg rounded-xl bg-surface relative">
+<div class="w-16 h-16 rounded-full bg-secondary text-on-secondary font-headline-md text-headline-md flex items-center justify-center font-bold mb-space-md shadow-md">
+            2
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+            نراجع المتطلبات
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            نراجع البيانات ونوضح المستندات والإجراءات المطلوبة بدقة حسب وجهة التصدير المحددة ونوع الحيوان.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center text-center p-space-lg rounded-xl bg-surface relative">
+<div class="w-16 h-16 rounded-full bg-primary-container text-on-primary font-headline-md text-headline-md flex items-center justify-center font-bold mb-space-md shadow-md">
+            3
+          </div>
+<h3 class="font-headline-sm text-headline-sm text-primary-container font-semibold mb-space-xs">
+            ننجز المعاملة
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            نتابع إجراءات المعاملة خطوة بخطوة ونساعد العميل حتى إتمامها بنجاح حسب المتطلبات المعتمدة.
+          </p>
+</div>
+</div>
+<!-- Action inside Steps -->
+<div class="text-center mt-space-xl">
+<a class="inline-flex items-center gap-space-xs px-space-xl py-space-md rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-tertiary-container shadow-md transition-all" href="#contact">
+<span>ابدأ معاملتك الآن في دقائق</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 7. WHO WE SERVE -->
+<section class="py-space-2xl bg-surface">
+<div class="max-w-[1320px] mx-auto px-gutter text-center">
+<div class="max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">قاعدة عملائنا</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          من نخدم؟
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          حلولنا مصممة بعناية لتلائم كافة فئات ملاك ومربي الحيوانات والجهات المختصة
+        </p>
+</div>
+<!-- 9 Clear Persona Cards -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-space-md max-w-4xl mx-auto">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">sports_martial_arts</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">ملاك الصقور</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">altitude</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">الصقارون</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">visibility</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">المهتمون بالصقور</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">landscape</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">ملاك الجمال</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">pets</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">ملاك الحيوانات</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">local_hospital</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">العيادات البيطرية</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">agriculture</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">أصحاب المزارع</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">diversity_3</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">مربي الحيوانات</span>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center gap-space-sm text-right hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[24px]">domain</span>
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">الجهات والأعمال المرتبطة</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. TRUST & EXPERIENCE BANNER -->
+<section class="py-space-xl bg-primary-container text-on-primary relative overflow-hidden">
+<!-- Subtle background glowing accents -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary-fixed/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-gutter relative z-10">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-space-lg">
+<div class="text-right max-w-2xl">
+<span class="font-label-sm text-label-sm text-secondary-fixed font-bold uppercase tracking-wider block mb-1">خبرة في إنجاز معاملات الحيوانات</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-primary mb-space-xs">
+            أكثر من 3 سنوات وما يزيد عن 30,000 معاملة ناجحة
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed">
+            نعتمد على الخبرة العملية والمتابعة الدقيقة لتسهيل معاملات تصدير وإعادة تصدير وترانزيت الحيوانات وفق أعلى المعايير الرسمية في دولة الإمارات.
+          </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-full bg-[#0d7a53] text-on-primary font-label-md text-label-md hover:bg-[#0b6545] shadow-lg transition-all" href="https://wa.me/971000000000" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>استشارة سريعة عبر واتساب</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-md rounded-full bg-surface-container-lowest text-primary-container font-label-md text-label-md hover:bg-surface-container transition-all" href="#contact">
+            تعبئة نموذج المعاملة
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. FAQ SECTION -->
+<section class="py-space-2xl bg-surface" id="faq">
+<div class="max-w-[960px] mx-auto px-gutter">
+<div class="text-center mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">إجابات استرشادية</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight">
+          الأسئلة الشائعة
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          كل ما تحتاج معرفته حول إجراءات ومعاملات تصدير الحيوانات والترانزيت
+        </p>
+</div>
+<!-- Accordion Container -->
+<div class="flex flex-col gap-space-sm" id="faq-accordion">
+<!-- FAQ 1 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">ما هي المستندات المطلوبة لتصدير الحيوانات من الإمارات؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            تختلف المستندات المطلوبة بحسب نوع الحيوان، وجهة التصدير، ونوع المعاملة؛ يسعدنا مراجعة تفاصيل حالتك وتزويدك بقائمة المتطلبات بدقة.
+          </div>
+</div>
+<!-- FAQ 2 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">هل توفرون شهادة صحية بيطرية للتصدير أو إعادة التصدير؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            نعم، ننجز كافة إجراءات ومعاملات الشهادات الصحية البيطرية اللازمة للتصدير وإعادة التصدير بالتنسيق مع الجهات المختصة في الدولة.
+          </div>
+</div>
+<!-- FAQ 3 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">هل تقدمون خدمات ترانزيت الصقور؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            نعم، نقدم الدعم المتكامل لإنجاز معاملات ترانزيت الصقور عبر نظام نما وتجهيز المستندات المطلوبة للمعاملة عبر مختلف المنافذ الجوية والبرية.
+          </div>
+</div>
+<!-- FAQ 4 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">هل تخدمون ملاك الصقور فقط؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            رغم تخصصنا القوي والمميز في الصقور، فإننا نخدم أيضاً ملاك الجمال، الكلاب، القطط، الغزلان، ومختلف ملاك ومربي الحيوانات في جميع أنحاء الإمارات.
+          </div>
+</div>
+<!-- FAQ 5 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">هل تقدمون خدمات للجمال والكلاب والقطط والغزلان؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            نعم بالتأكيد، تشمل خدماتنا كافة متطلبات التصدير والشهادات الصحية للجمال والحيوانات الأليفة والغزلان وفق اللوائح المتبعة.
+          </div>
+</div>
+<!-- FAQ 6 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">كيف يمكنني طلب الخدمة؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            يمكنك طلب الخدمة بسهولة من خلال التواصل المباشر عبر واتساب أو تعبئة نموذج الطلب الموجود أسفل الصفحة ليتم التواصل معك فوراً.
+          </div>
+</div>
+<!-- FAQ 7 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm overflow-hidden">
+<button class="w-full p-space-md text-right flex items-center justify-between gap-space-md focus:outline-none" onclick="toggleFaq(this)" type="button">
+<span class="font-headline-sm text-headline-sm text-primary-container font-semibold">كيف أرسل بيانات المعاملة؟</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300">keyboard_arrow_down</span>
+</button>
+<div class="px-space-md pb-space-md text-right text-on-surface-variant font-body-md text-body-md hidden">
+            يمكنك إرسال المستندات والبيانات بسهولة عبر محادثة واتساب المباشرة أو عبر رفعها ومشاركتها مع فريق العمليات للمراجعة الفورية.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. CONTACT & LEAD GENERATION FORM -->
+<section class="py-space-2xl bg-surface-container-low" id="contact">
+<div class="max-w-[1320px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Right Column: Information & Fast Contact Actions -->
+<div class="lg:col-span-5 flex flex-col justify-between text-right">
+<div>
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider block mb-1">تواصل مباشر وسريع</span>
+<h2 class="font-headline-lg text-headline-lg text-primary-container font-semibold tracking-tight mb-space-xs">
+              هل تحتاج إلى إنجاز معاملة لحيوانك؟
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-space-lg">
+              أرسل لنا تفاصيل المعاملة وسنساعدك فوراً في معرفة الإجراءات والمستندات المطلوبة بدقة وتسهيل استخراجها.
+            </p>
+<!-- Prominent Quick Action Buttons -->
+<div class="flex flex-col gap-space-sm mb-space-xl">
+<a class="w-full flex items-center justify-center gap-space-xs p-space-md rounded-xl bg-[#0d7a53] text-on-primary font-headline-sm text-headline-sm font-semibold hover:bg-[#0b6545] shadow-md transition-all" href="https://wa.me/971000000000" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+<span>تواصل معنا عبر واتساب</span>
+</a>
+<a class="w-full flex items-center justify-center gap-space-xs p-space-md rounded-xl bg-surface-container-lowest text-primary-container font-headline-sm text-headline-sm font-semibold hover:bg-surface transition-all shadow-sm" href="tel:+97140000000">
+<span class="material-symbols-outlined text-[24px]">call</span>
+<span>اتصل بنا مباشرة</span>
+</a>
+</div>
+</div>
+<!-- Assurance card -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] mt-0.5">verified_user</span>
+<div class="text-right">
+<span class="font-label-md text-label-md font-bold text-primary-container block">سرية وسرعة تامة</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">يتم التعامل مع جميع المستندات والبيانات بأعلى درجات الخصوصية والموثوقية.</span>
+</div>
+</div>
+</div>
+<!-- Left Column: Interactive Form -->
+<div class="lg:col-span-7">
+<div class="p-space-xl rounded-2xl bg-surface-container-lowest shadow-lg">
+<div class="mb-space-md text-right">
+<h3 class="font-headline-md text-headline-md text-primary-container font-semibold">نموذج طلب الخدمة السريع</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">املأ النموذج وسيقوم خبير المعاملات بالتواصل معك خلال وقت قصير</p>
+</div>
+<form class="space-y-space-md text-right" id="lead-form" onsubmit="handleLeadSubmit(event)">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Full Name -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="user-name">الاسم الكامل *</label>
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md shadow-inner" id="user-name" placeholder="أدخل اسمك الكريم" required="" type="text"/>
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="user-phone">رقم الهاتف (مع واتساب) *</label>
+<div class="relative flex items-center">
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md text-right shadow-inner" dir="ltr" id="user-phone" placeholder="50 000 0000" required="" type="tel"/>
+<span class="absolute left-3 font-label-sm text-label-sm text-on-surface-variant" dir="ltr">+971 🇦🇪</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Animal Type -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="animal-type">نوع الحيوان *</label>
+<select class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md shadow-inner" id="animal-type" required="">
+<option disabled="" selected="" value="">اختر نوع الحيوان...</option>
+<option value="falcon">صقر (تخصصنا الأبرز)</option>
+<option value="camel">جمل / هجن</option>
+<option value="dog">كلب</option>
+<option value="cat">قط</option>
+<option value="gazelle">غزال</option>
+<option value="other">حيوانات أخرى</option>
+</select>
+</div>
+<!-- Service Type -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="service-type">نوع الخدمة المطلوبة *</label>
+<select class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md shadow-inner" id="service-type" required="">
+<option disabled="" selected="" value="">اختر الخدمة...</option>
+<option value="health-certificate">شهادة صحية بيطرية</option>
+<option value="re-export">تصدير أو إعادة تصدير</option>
+<option value="nama-transit">ترانزيت صقور عبر نظام نما</option>
+<option value="fast-track">المسار السريع (AgriServ)</option>
+<option value="inquiry">استفسار عام ومتابعة متطلبات</option>
+</select>
+</div>
+</div>
+<!-- Export Destination -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="destination">وجهة التصدير أو المنفذ</label>
+<input class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md shadow-inner" id="destination" placeholder="مثال: المملكة العربية السعودية، قطر، الكويت، أو مطار دبي الدولي" type="text"/>
+</div>
+<!-- Notes / Message -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1" for="user-notes">ملاحظات أو تفاصيل إضافية</label>
+<textarea class="w-full px-space-md py-space-sm rounded-lg bg-surface text-on-surface border-none focus:outline-none focus:ring-2 focus:ring-primary-container font-body-md text-body-md shadow-inner" id="user-notes" placeholder="اكتب أي استفسارات بخصوص الوقت المحدد أو المستندات الحالية المتوفرة لديك..." rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-space-md px-space-xl rounded-full bg-primary-container text-on-primary font-headline-sm text-headline-sm font-semibold hover:bg-tertiary-container shadow-md transition-all flex items-center justify-center gap-space-xs" type="submit">
+<span>إرسال الطلب والمتابعة</span>
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+<div class="hidden p-space-sm rounded-lg bg-secondary-fixed/30 text-on-secondary-fixed-variant text-center font-label-md text-label-md" id="form-feedback">
+                تم استلام طلبك بنجاح! سيقوم فريق العمليات بالتواصل معك لمتابعة الإجراءات فوراً.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for micro-interactions -->
+<script>
+    function toggleFaq(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector('.material-symbols-outlined');
+      const isHidden = content.classList.contains('hidden');
+
+      // Close all other accordions for neatness
+      document.querySelectorAll('#faq-accordion > div').forEach(item => {
+        const text = item.querySelector('div');
+        const arrow = item.querySelector('.material-symbols-outlined');
+        if (text && arrow) {
+          text.classList.add('hidden');
+          arrow.style.transform = 'rotate(0deg)';
+        }
+      });
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    function handleLeadSubmit(event) {
+      event.preventDefault();
+      const feedback = document.getElementById('form-feedback');
+      feedback.classList.remove('hidden');
+      
+      // Construct whatsapp direct notification option
+      const name = document.getElementById('user-name').value;
+      const phone = document.getElementById('user-phone').value;
+      const animal = document.getElementById('animal-type').value;
+      const service = document.getElementById('service-type').value;
+      const destination = document.getElementById('destination').value || 'غير محدد';
+
+      const waText = encodeURIComponent(`طلب تخليص جديد من الموقع:
+الاسم: ${name}
+الهاتف: ${phone}
+نوع الحيوان: ${animal}
+الخدمة: ${service}
+الوجهة: ${destination}`);
+
+      setTimeout(() => {
+        window.open(`https://wa.me/971000000000?text=${waText}`, '_blank');
+      }, 1000);
+    }
+  </script>
+</div></main><a aria-label="WhatsApp Support" class="fixed bottom-6 left-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#0d7a53] text-on-primary shadow-[0_12px_28px_rgba(13,122,83,0.35)] hover:scale-105 transition-transform" href="https://wa.me/971000000000" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[28px]">forum</span></a><footer class="w-full bg-surface-container-lowest border-t border-surface-variant pt-space-2xl pb-space-xl"><div class="max-w-[1320px] mx-auto px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl mb-space-2xl text-right"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs mb-space-xs"><img alt="Logo2.png" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VUIYEloknjMs9qip06Glg1EeqJm_7j6_bPfxxCoEAPO7rG8UcstNA5nVQWElVJZJf3nLMtt8FcWE1HDu2XwTSmA292XscVeCXX847MDrcgpz4olFWXm36jcJTRTiQ_qTdtrkVQ6K3FKw4s4gP2_RQJeQY_8G2Zu2WpbLcPU5zwCOJ_fWxsAMKdCJW5-3kvthizqhKJU9Ob_-nOHP7Lb9KWvLNCKmd2xNt8V-4dvi66F15ZZGHTFEYGbEdEOEdprF7NektXmsYryv8"/><span class="font-headline-sm text-headline-sm text-primary-container font-bold">EIC</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">الشركة الرائدة والمتخصصة في تخليص معاملات استيراد، تصدير، إعادة تصدير، وترانزيت الحيوانات الحية بدولة الإمارات العربية المتحدة، وفق أعلى المعايير البيطرية واللوجستية الدولية واتفاقيات سايتس (CITES).</p><div class="inline-flex items-center gap-space-xs mt-space-sm px-space-sm py-space-xs rounded-full bg-surface-container-low text-on-surface-variant text-label-sm font-label-sm"><span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span><span>معتمد ومطابق للاشتراطات الوزارية والجمارك</span></div></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md font-semibold">روابط سريعة</h4><ul class="space-y-space-xs"><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#hero">الرئيسية</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">خدماتنا المتخصصة</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#animals">سلالات وفئات الحيوانات</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#why-us">لماذا تختار EIC؟</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#how-it-works">خطوات وإجراءات المعاملات</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md font-semibold">المعاملات والتراخيص</h4><ul class="space-y-space-xs"><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">تخليص الصقور والطيور الجارحة</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">شهادات سايتس (CITES) الدولية</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">شحنات الخيول والهجن والمحميات</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">إذن الاستيراد والإفراج البيطري</a></li><li class="leading-relaxed"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" href="#services">ترانزيت عبر مطارات ومنافذ الدولة</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md font-semibold">تواصل واستفسار</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">فريق العمليات متاح 24/7 لمتابعة الشحنات الحية وتقديم الاستشارات التنظيمية.</p><div class="flex flex-col gap-space-xs text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-xs"><span>دولة الإمارات العربية المتحدة (أبوظبي، دبي، الشارقة)</span></div><div class="flex items-center gap-space-xs"><span class="dir-ltr">ops@eic-logistics.ae</span></div><div class="flex items-center gap-space-xs"><span class="dir-ltr">+971 4 000 0000</span></div></div></div></div><div class="border-t border-surface-variant pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-right"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2026 EIC. جميع الحقوق محفوظة.</p><p class="font-label-sm text-label-sm text-on-surface-variant">مرخص لجميع إجراءات التخليص البيطري والجمارك الحيوانية في دولة الإمارات العربية المتحدة</p></div></div></footer></body></html>
